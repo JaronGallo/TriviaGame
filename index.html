@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script
+ src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="assets/Javascript/app.js"></script>
+	<title>Trivia Game</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+	<div class="jumbotron jumbotron-fluid">
+	<h1 class="col-md-12 col-xs-12 text-center">Trivia About Jaron</h1>
+		<p class="lead text-center">Right: <span id="wins">0</span></p>
+		<p class="lead text-center">Wrong: <span id="fail">0</span></p>
+	<p class="lead text-center" id="counter"></p>
+	</div>
+</div>
+<!-- ========================================================= -->
+<div id="section" class="container row">
+<!-- ========================================================= -->
+
+<div class="panel-primary">
+<div class="row head">
+	<div class="heading">
+  	<div class="panel-heading">
+  	<strong>
+  	<i class="fa  fa-list-alt"></i>
+  	</strong>
+  	<h3 class="panel-title"><strong>Answer Questions</h3>
+  	</div>
+  	</div>
+  	</div>
+<div class="row question">
+		<p class="col-md-12 col-xs-12 text-center question1"><strong>What type of beer do I like?</strong></p>
+</div>
+<div class="container-fluid">
+<div class="row">
+
+	<form id="formID">
+		<div class="form-group">
+			<div class="col-md-4 text-center">
+				<label  class="radio-inline  wrong">
+				<input  type="radio" name="inlineRadioOptions" id="beer1" value="option1"> IPAs
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline  wrong">
+  				<input type="radio" name="inlineRadioOptions" id="beer2" value="option2"> Porters/Browns 
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline correct">
+  				<input type="radio" name="inlineRadioOptions" id="beer3" value="option3"> Jaron doesn't like beer...
+				</label>
+			</div>
+		</div>
+		
+	</form>
+	</div>
+</div>
+<!-- ========================================================= -->
+
+<div class="row question">
+		<p class="col-md-12 col-xs-12 text-center question1"><strong>What is my last name?</strong></p>
+</div>
+<div class="container-fluid">
+<div class="row">
+	<form id="formID">
+		<div class="form-group">
+		<div class="col-md-4 text-center">
+				<label  class="radio-inline  wrong">
+				<input  type="radio" name="inlineRadioOptions" id="lastname1" value="option1"> Glenn
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline  wrong">
+  				<input type="radio" name="inlineRadioOptions" id="lastname2" value="option2"> Gallo 
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline correct">
+  				<input type="radio" name="inlineRadioOptions" id="lastname3" value="option3"> Aberle
+				</label>
+			</div>
+		</div>
+		
+	</form>
+</div>
+</div>
+<!-- ========================================================= -->
+
+<div class="row question">
+		<p class="col-md-12 col-xs-12 text-center question1"><strong>Do I currently have a pet?</strong></p>
+</div>
+<div class="container-fluid">
+<div class="row">
+	<form id="formID">
+		<div class="form-group">
+			<div class="col-md-4 text-center">
+				<label  class="radio-inline  wrong">
+				<input  type="radio" name="inlineRadioOptions" id="pet1" value="option1"> Yes, a dog!
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline  wrong">
+  				<input type="radio" name="inlineRadioOptions" id="pet2" value="option2"> Yes, a cat named moon! 
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline correct">
+  				<input type="radio" name="inlineRadioOptions" id="pet3" value="option3"> No, he doesn't.
+				</label>
+			</div>
+		</div>
+	</form>
+</div>
+</div>
+<!-- ========================================================= -->
+
+<div class="row question">
+		<p class="col-md-12 col-xs-12 text-center question1"><strong>Where was I born?</strong></p>
+</div>
+<div class="container-fluid">
+<div class="row">
+	<form id="formID">
+		<div class="form-group">
+
+				<div class="col-md-4 text-center">
+				<label  class="radio-inline  wrong">
+				<input  type="radio" name="inlineRadioOptions" id="born1" value="option1"> Ohio
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline  wrong">
+  				<input type="radio" name="inlineRadioOptions" id="born2" value="option2">Colorado 
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline correct">
+  				<input type="radio" name="inlineRadioOptions" id="born3" value="option3"> LA
+				</label>
+			</div>
+		</div>
+	</form>
+</div>
+</div>
+<!-- ========================================================= -->
+
+<div class="row question">
+		<p class="col-md-12 col-xs-12 text-center question1"><strong>My favorite color?</strong></p>
+</div>
+<div class="container-fluid">
+<div class="row">
+	<form id="formID">
+		<div class="form-group">
+
+				<div class="col-md-4 text-center">
+				<label  class="radio-inline  wrong">
+				<input  type="radio" name="inlineRadioOptions" id="color1" value="option1"> Blue
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline  wrong">
+  				<input type="radio" name="inlineRadioOptions" id="color2" value="option2"> Purple  
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline correct">
+  				<input type="radio" name="inlineRadioOptions" id="color3" value="option3"> Black
+				</label>
+			</div>
+		</div>
+
+
+		
+	</form>
+</div>
+</div>
+<!-- ========================================================= -->
+<div class="row question">
+		<p class="col-md-12 col-xs-12 text-center question1"><strong>What is one of my biggest goals?</strong></p>
+</div>
+<div class="container-fluid">
+<div class="row">
+	<form id="formID">
+		<div class="form-group">
+
+				<div class="col-md-4 text-center">
+				<label  class="radio-inline  wrong">
+				<input  type="radio" name="inlineRadioOptions" id="goal1" value="option1"> Gain steady passive income.
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline  wrong">
+  				<input type="radio" name="inlineRadioOptions" id="goal2" value="option2"> Travel to tons of countries.
+				</label>
+			</div>
+			<div class="col-md-4 text-center">
+				<label class="radio-inline correct">
+  				<input type="radio" name="inlineRadioOptions" id="goal3" value="option3"> Learn and retain a lot of information.
+				</label>
+			</div>
+		</div>
+	</form>
+	</div>
+</div>
+
+<!-- ========================================================= -->
+
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-12 col-xs-12 text-center">
+	<button type="submit" class="btn btn-lg btn-primary text-center" id="btn1">Submit</button>
+	</div>
+</div>
+</div>
+</div>
+</div
+</div>
+</body>
+</html>

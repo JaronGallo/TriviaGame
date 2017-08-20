@@ -1,0 +1,43 @@
+p {
+	font-size: 1.5em;
+}
+label {
+	font-size: 1.2em;
+	padding-bottom: 20px;
+
+}
+#btn1 {
+	margin-bottom: 50px;
+}
+
+.question {
+	padding:10px;
+}
+.question1 {
+
+	border-bottom: 1px solid #E6E6E6;
+}
+body {
+	background:url(http://vegetarianbaker.com/wp-content/uploads/2014/01/bg-10-full-2-1024x576.jpg);
+	background-size: cover;
+	margin:0 20px;
+
+}
+#section {
+	background-color: white;
+	margin-bottom: 40px;
+	color: #282930 ;
+	border-radius: 10px;
+}
+.jumbotron {
+	background-color: #425984;
+	color: white;
+	border-radius: 10px;
+
+}
+.head {
+	background-color: #425984;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
