@@ -24,7 +24,6 @@ label {
 }
 body {
 	background:url(../images/triviabackground.jpg);
-	/*background:url(http://vegetarianbaker.com/wp-content/uploads/2014/01/bg-10-full-2-1024x576.jpg);*/
 	background-size: cover;
 	margin:0 20px;
 	z-index: 100;
