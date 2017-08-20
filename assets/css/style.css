@@ -1,26 +1,33 @@
 p {
 	font-size: 1.5em;
+	z-index: 100;
 }
 label {
 	font-size: 1.2em;
 	padding-bottom: 20px;
+	z-index: 100;
 
 }
 #btn1 {
 	margin-bottom: 50px;
+	z-index: 100;
 }
 
 .question {
 	padding:10px;
+	z-index: 100;
 }
 .question1 {
 
 	border-bottom: 1px solid #E6E6E6;
+	z-index: 100;
 }
 body {
-	background:url(http://vegetarianbaker.com/wp-content/uploads/2014/01/bg-10-full-2-1024x576.jpg);
+	background:url(../images/triviabackground.jpg);
+	/*background:url(http://vegetarianbaker.com/wp-content/uploads/2014/01/bg-10-full-2-1024x576.jpg);*/
 	background-size: cover;
 	margin:0 20px;
+	z-index: 100;
 
 }
 #section {
@@ -28,11 +35,13 @@ body {
 	margin-bottom: 40px;
 	color: #282930 ;
 	border-radius: 10px;
+	z-index: 100;
 }
 .jumbotron {
 	background-color: #425984;
 	color: white;
 	border-radius: 10px;
+	z-index: 100;
 
 }
 .head {
@@ -40,4 +49,9 @@ body {
 	color: white;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	z-index: 100;
+}
+#background {
+	position: absolute;
+	z-index: 1;
 }
